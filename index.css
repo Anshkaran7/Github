@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5f2c82;
+    
+}
+html,
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+#search{
+  display: flex;
+  width: 50%;
+  max-width: 50rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#search input{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 3px;
+}
+button{
+  background-color:#DAE2F8 ;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 19px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #4A569D;
+  box-shadow: 1px black;
+   color: white;
+}
+
+button:active {
+  background: rgba(231, 59, 231, 0.788);
+}
+#profile-box{
+  padding: 4rem 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0 , 0 , 20);
+  background-color: white;
+  border-radius: 8px;
+}
+#avatar{
+  height: 5rem;
+  width: 5rem;
+}
+#avatar img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+#top-section{
+  display: flex;
+  justify-content: space-between;
+}
+#left{
+  display: flex;
+  justify-content: space-between;
+}
+#left h1{
+  font-size: 1.6rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+#left h3{
+  font-size: 1.2rem;
+  margin-left: 10px;
+  
+  color: gray;
+}
