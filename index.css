@@ -42,7 +42,7 @@ body {
   border: none;
   border-radius: 3px;
 }
-button{
+.primary-btn {
   background-color:#DAE2F8 ;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
@@ -52,21 +52,33 @@ button{
   margin-left: 5px;
   font-weight: bold;
 }
-button:hover{
+.primary-btn:hover {
   background-color: #4A569D;
   box-shadow: 1px black;
    color: white;
 }
-
-button:active {
+.primary-btn:active {
   background: rgba(231, 59, 231, 0.788);
 }
+/* Card  */
+
 #profile-box{
   padding: 4rem 2rem;
   box-shadow: 0 0 1rem rgba(0, 0 , 0 , 20);
   background-color: white;
   border-radius: 8px;
+  width: 40%;
+
+  max-height: 45rem;
+  margin-top: 30px;
+  max-width: 78rem;
+  transition: 0.5s ease-in;
 }
+#profile-box:hover{
+  transform: rotate(-3deg) scale(1.1);
+  transition: 0.8s ease-in-out;
+}
+
 #avatar{
   height: 5rem;
   width: 5rem;
@@ -93,6 +105,29 @@ button:active {
 #left h3{
   font-size: 1.2rem;
   margin-left: 10px;
-  
   color: gray;
+}
+#top-section button{
+  align-self: center;
+  font-size: 13px;
+}
+.about{
+  margin: 2rem;
+}
+.about h1{
+  font-size: 20px;
+}
+.about p{
+  font-size: 1.3rem;
+}
+.status{
+  display: grid;
+  margin: 2rem;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) ;
+}
+.status-item h1{
+  font-size: 20px;
+}
+.status-item p{
+  font-size: 1.3rem;
 }
